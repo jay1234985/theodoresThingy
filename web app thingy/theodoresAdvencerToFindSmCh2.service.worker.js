@@ -4,20 +4,20 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1790978046|74694400646';
+const CACHE_VERSION = '1790978382|75029754338';
 /** @type {string} */
 const CACHE_PREFIX = 'theodoresAdvence-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
 /** @type {string} */
-const OFFLINE_URL = 'index.offline.html';
+const OFFLINE_URL = 'theodoresAdvencerToFindSmCh2.offline.html';
 /** @type {boolean} */
 const ENSURE_CROSSORIGIN_ISOLATION_HEADERS = true;
 // Files that will be cached on load.
 /** @type {string[]} */
-const CACHED_FILES = ["index.html","index.js","index.offline.html","index.icon.png","index.apple-touch-icon.png","index.audio.worklet.js","index.audio.position.worklet.js"];
+const CACHED_FILES = ["theodoresAdvencerToFindSmCh2.html","theodoresAdvencerToFindSmCh2.js","theodoresAdvencerToFindSmCh2.offline.html","theodoresAdvencerToFindSmCh2.icon.png","theodoresAdvencerToFindSmCh2.apple-touch-icon.png","theodoresAdvencerToFindSmCh2.audio.worklet.js","theodoresAdvencerToFindSmCh2.audio.position.worklet.js"];
 // Files that we might not want the user to preload, and will only be cached on first load.
 /** @type {string[]} */
-const CACHEABLE_FILES = ["index.wasm","index.pck","index.side.wasm","libterrain.web.debug.wasm32.wasm"];
+const CACHEABLE_FILES = ["theodoresAdvencerToFindSmCh2.wasm","theodoresAdvencerToFindSmCh2.pck","theodoresAdvencerToFindSmCh2.side.wasm","libterrain.web.debug.wasm32.wasm"];
 const FULL_CACHE = CACHED_FILES.concat(CACHEABLE_FILES);
 
 self.addEventListener('install', (event) => {
